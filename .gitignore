@@ -1,0 +1,30 @@
+# Ignorar diretórios de dependências
+node_modules/
+
+# Ignorar diretórios de build/dist
+dist/
+build/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração de ambiente (se existirem)
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos específicos do Docker (cache, etc.)
+.dockerignore
+
+# Ignorar arquivos de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos do editor/IDE (exemplos - ajuste conforme o seu)
+.vscode/
+.idea/
+*.swp
+
+# Ignorar diretório de uploads (se existir)
+uploads/ 
